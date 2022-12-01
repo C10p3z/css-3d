@@ -28,3 +28,7 @@ div {
     transform: rotateZ(0deg);
     transition-duration: 2s;
 }
+
+#myDiv3:hover{
+    transform: rotateZ(100deg);
+}
