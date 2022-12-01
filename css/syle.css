@@ -1,0 +1,30 @@
+div {
+    width: 300px;
+    height: 100px;
+    background-color:#333
+    border:1px solid black;
+    color: white;
+}
+
+#myDiv {
+    transform: rotateX(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv:hover {
+    transform:translateX(125deg) ;
+}
+
+#myDiv2 {
+    transform: rotateY(0deg);
+    transition-duration: 2s;
+}
+
+#myDiv2:hover {
+    transform: rotateY(180deg);
+}
+
+#myDiv3 {
+    transform: rotateZ(0deg);
+    transition-duration: 2s;
+}
